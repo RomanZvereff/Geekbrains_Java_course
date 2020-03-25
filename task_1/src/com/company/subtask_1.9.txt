@@ -1,0 +1,4 @@
+В Java важна типизация и последовательность переметров в методах, поэтому
+void myMethod(int a, String b) {}
+void myMethod(String b, int a) {}
+два разных метода
