@@ -15,8 +15,8 @@ public class Main {
     }
 
     //Написать метод, вычисляющий выражение a * (b + (c / d))
-    public static void getCalculation(int a, int b, int c, int d){
-        System.out.println(a * (b + (c / d)));
+    public static double getCalculation(double a, double b, double c, double d){
+        return a * (b + (c / d));
     }
 
     //Написать метод, принимающий на вход два числа, и проверяющий, что их сумма лежит в пределах от 10 до 20 (включительно)
