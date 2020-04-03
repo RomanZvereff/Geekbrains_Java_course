@@ -3,6 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+
         int[] arr = {4, 15, 1, 7, 90, 1, 4, 5, 18};
         setZeroOneArray();
         setArrIncrementByThree();
@@ -62,7 +63,7 @@ public class Main {
         }
         printArr(arr);
     }
-    
+
     /*4. Создать квадратный двумерный целочисленный массив (количество строк и столбцов одинаковое),
     и с помощью цикла(-ов) заполнить его диагональные элементы единицами;*/
     public static void diagonalItems(){
